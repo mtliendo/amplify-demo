@@ -13,7 +13,7 @@ function App() {
 	const handleColorChange = (color) => {
 		setColor(color.hex)
 	}
-
+	//adding logs cause their cool
 	const handleButtonClick = async () => {
 		setBulbColor(color)
 		axios({
